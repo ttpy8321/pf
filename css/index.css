@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  /* background: linear-gradient(-180deg, #bcc5ce 0%, #929ead 98%),
+    radial-gradient(
+      at top left,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ); 
+  background-blend-mode: screen; */
+}
+
+main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-auto-rows: max-content;
+  place-content: center;
+  gap: 5rem;
+}
+
+main > img {
+  grid-row: span 6;
+}
+
+section {
+  background-color: white;
+  display: flex;
+  gap: 2rem;
+}
+
+img {
+  height: 3rem;
+}
